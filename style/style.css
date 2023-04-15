@@ -12,34 +12,35 @@
     --font2:'Freckle Face', cursive;
     --font3:'Gloria Hallelujah', cursive;
     --font4:'Stick', sans-serif;
+    --font5:'Major Mono Display', monospace;
 }
 
 header{
     z-index: 1000;
     background-color: rgb(0, 0, 0);
     width: 100%;
-    padding: 5px;
     display: flex;
-    padding-top: 5vw;
+    padding-top: 8vw;
+    padding-bottom: 2vw;
 }
 
 .titel{
     color: #ffffff;
     display: flex;
-    font-size: 10vw;
-    font-family:  var(--font4);
-    text-align: center;
+    font-size: 8vw;
+    font-family:  var(--font5);
+    margin-left: 10vw;
     align-self: center;
     flex-direction: column;
-    font-weight: bold;
-    padding: -5px;
     flex-grow: 1;
+
 } 
 
 
 
 .logo{
-    width: 8vw;
+    margin-top: 1vw;
+    width: 7vw;
     margin-left: 10px;
     display: flex;
     align-self: center;
@@ -48,7 +49,7 @@ header{
 
 .nav{
     
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(34, 34, 34);
     width: 100%;
     right: 0;
     z-index: 1000;
@@ -69,9 +70,8 @@ header{
     transform: all .45s ease;
     transition: all .45s ease;
     border: 2px solid white;
-    padding: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 2vw;
+    padding-right: 2vw;
 }
 
 .nav a:hover{
@@ -101,7 +101,7 @@ h2{
     font-size: 5vw;
     padding: 5px;
     text-decoration: underline;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-bottom: 5px;
     text-shadow: -1px 1px 0 #ffffff,
                           1px 1px 0 #ffffff,
@@ -228,7 +228,7 @@ footer{
 }
 
 /*    GALLERY     */
-h1{
+h1.gallery{
     font-family: var(--font1);
     color: rgb(0, 0, 0);
     text-align: center;
@@ -268,5 +268,26 @@ section.acrylic_p{
     width: 100%;
     background-color: rgba(0, 0, 0, 0.231);
     padding-bottom: 10px;
+}
+
+
+/*   BOOKING    */
+
+
+main.booking{
+        width: 100%;
+        right: 0;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+}
+
+h1.buy{
+    margin-top: 8vw;
+    text-decoration: underline;
+    font-family: var(--font1);
 }
 
