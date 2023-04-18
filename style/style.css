@@ -285,7 +285,7 @@ main.booking{
         align-items: center;
 }
 
-h1.buy{
+h1.booking{
     margin-top: 8vw;
     text-decoration: underline;
     font-family: var(--font1);
