@@ -5,6 +5,36 @@
     list-style: none;
     scroll-behavior: smooth;
     box-sizing: border-box;
+    @media screen and (min-width: 801px) {
+        .titel{
+          font-size: 80px;
+        }
+        .nav a{
+            font-size: 20px;
+          }
+        .nav{
+            gap:50px
+        }
+        .logo{
+            width:60px
+        }
+      }
+      
+      
+    @media screen and (max-width: 800px) {
+        .titel{
+          font-size: 50px;
+        }
+        .nav a{
+            font-size: 10px;
+          }
+          .nav{
+            gap:40px
+        }
+        .logo{
+            width:40px
+        }
+      }
 }
 
 :root{
@@ -23,16 +53,15 @@ header{
     background-color: rgb(0, 0, 0);
     width: 100%;
     display: flex;
-    padding-top: 8vw;
-    padding-bottom: 2vw;
+    padding-top: 50px;
+    padding-bottom: 10px;
 }
 
 .titel{
     color: #ffffff;
     display: flex;
-    font-size: 8vw;
     font-family:  var(--font5);
-    margin-left: 10vw;
+    align-items: center;
     align-self: center;
     flex-direction: column;
     flex-grow: 1;
@@ -43,7 +72,6 @@ header{
 
 .logo{
     margin-top: 1vw;
-    width: 7vw;
     margin-left: 10px;
     display: flex;
     align-self: center;
@@ -60,16 +88,16 @@ header{
     display: flex;
     transition: all .45s ease;
     justify-content: center;
-    gap: 10vw;
+
+    
 }
 
 .nav a{
     font-family: var(--font4);
     display: flex;
     color: aliceblue;
-    font-size: 2.5vw;
-    margin-top: 1.5vw;
-    margin-bottom: 1.5vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
     transform: all .45s ease;
     transition: all .45s ease;
     border: 2px solid white;
@@ -102,7 +130,7 @@ h2{
     font-family: var(--font1);
     color: rgb(0, 0, 0);
     text-align: center;
-    font-size: 5vw;
+    font-size: 40px;
     padding: 5px;
     text-decoration: underline;
     margin-top: 10px;
@@ -291,10 +319,10 @@ main.booking{
 
 h1.booking{
 
-    margin-top: 10vw;
+    margin-top: 60px;
     text-decoration: underline;
     font-family: var(--font1);
-    font-size: 40px;
+    font-size: 35px;
 }
 
 
@@ -304,12 +332,12 @@ p span{
 .para{
     margin-top: 5vw;
     font-size: 30px;
-    font-family:var(--font6)
+    font-family:var(--font8)
 }
 
 .fix_footer{
     position: fixed;
-    margin-top:650px;
+    margin-top:630px;
     
 }
 
@@ -330,17 +358,17 @@ p span{
 
 
 .logo_about{
-    margin-top: 8vw;
-    width: 8vw;
+    margin-top: 80px;
+    width: 90px;
 }
 
 .about_titel{
     font-family: var(--font7);
-    font-size: 50px;
+    font-size: 60px;
 }
 
 .para_about{
     font-family: var(--font8);
     padding: 20px;
-    font-size: 20px;
+    font-size: 18px;
 }
