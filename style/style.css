@@ -13,6 +13,9 @@
     --font3:'Gloria Hallelujah', cursive;
     --font4:'Stick', sans-serif;
     --font5:'Major Mono Display', monospace;
+    --font6:'Courgette', cursive;
+    --font7:'Lacquer', cursive;
+    --font8:'Oregano', cursive;
 }
 
 header{
@@ -57,11 +60,11 @@ header{
     display: flex;
     transition: all .45s ease;
     justify-content: center;
-    gap: 5vw;
+    gap: 10vw;
 }
 
 .nav a{
-    font-family: var(--font2);
+    font-family: var(--font4);
     display: flex;
     color: aliceblue;
     font-size: 2.5vw;
@@ -72,6 +75,7 @@ header{
     border: 2px solid white;
     padding-left: 2vw;
     padding-right: 2vw;
+    font-weight: bold;
 }
 
 .nav a:hover{
@@ -286,8 +290,57 @@ main.booking{
 }
 
 h1.booking{
-    margin-top: 8vw;
+
+    margin-top: 10vw;
     text-decoration: underline;
     font-family: var(--font1);
+    font-size: 40px;
 }
 
+
+p span{
+    font-weight: bold;
+}
+.para{
+    margin-top: 5vw;
+    font-size: 30px;
+    font-family:var(--font6)
+}
+
+.fix_footer{
+    position: fixed;
+    margin-top:650px;
+    
+}
+
+.contact{
+    padding: 50px;
+    display: flex;
+    font-size: 50px;
+    font-weight: 500;
+    justify-content: center;
+    
+}
+
+.contact a{
+    color: #000000;
+}
+
+/*         ABOUT     */
+
+
+.logo_about{
+    margin-top: 8vw;
+    width: 8vw;
+}
+
+.about_titel{
+    font-family: var(--font7);
+    font-size: 50px;
+}
+
+.para_about{
+    font-family: var(--font8);
+    padding: 20px;
+    font-size: 20px;
+}
