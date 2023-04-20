@@ -52,13 +52,7 @@ header{
     display: flex;
     transition: all .45s ease;
     justify-content: center;
-    @media screen and (min-width: 801px) {
-            gap:50px;
-      }
-      
-    @media screen and (max-width: 800px){
-            gap:40px;
-        }
+    gap: 5vw;
 }
 
 .nav a{
@@ -90,7 +84,7 @@ header{
 }
 
 
-main.index{
+main{
     width: 100%;
     right: 0;
     display: flex;
@@ -253,7 +247,7 @@ h1.gallery{
     text-align: center;
     text-decoration: underline;
     margin-top: 60px;
-    font-size: 40px;
+    font-size: 8vw;
     margin-bottom: 10px;
     text-shadow: -1px 1px 0 #000000,
                           1px 1px 0 rgb(0, 0, 0),
@@ -261,16 +255,7 @@ h1.gallery{
                         -1px -1px 0 #000000;
 }
 
-main.gallery{
-    width: 100%;
-    right: 0;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: center;
-    align-items: center;
-}
+
 
 
 .acrylic_p{
@@ -288,16 +273,7 @@ main.gallery{
 /*   BOOKING    */
 
 
-main.booking{
-        width: 100%;
-        right: 0;
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        text-align: center;
-        align-items: center;
-}
+
 
 h1.booking{
     color: #ffffff;
@@ -305,7 +281,7 @@ h1.booking{
     margin-top: 80px;
     text-decoration: underline;
     font-family: var(--font1);
-    font-size: 35px;
+    font-size: 150%;
     text-shadow: -1px 1px 0 #000000,
                           1px 1px 0 #000000,
                          1px -1px 0 #000000,
@@ -317,16 +293,16 @@ p span{
     font-weight: bold;
 }
 .para{
-    margin: 10px;
-    margin-top: 5vw;
-    font-size: 30px;
-    font-family:var(--font7)
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font7);
+    padding: 10px;
+    font-size: 18px;
 }
 
 
 
 .contact{
-    padding: 30px;
     display: flex;
     font-size: 50px;
     font-weight: 500;
@@ -344,12 +320,11 @@ p span{
 
 
 footer.booking{
-position: fixed;
+ position: fixed;
  display: flex;
 }
 
 /*         ABOUT     */
-
 
 .logo_about{
     margin-top: 60px;
@@ -358,7 +333,7 @@ position: fixed;
 
 .about_titel{
     font-family: var(--font8);
-    font-size: 50px;
+    font-size: 30px;
     text-shadow: -1px 1px 0 #ffffff,
                           1px 1px 0 #ffffff,
                          1px -1px 0 #ffffff,
@@ -375,5 +350,5 @@ position: fixed;
 
 footer.about{
     position: fixed;
-     display: flex;
+ display: flex;
     }
