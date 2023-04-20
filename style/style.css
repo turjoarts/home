@@ -277,7 +277,7 @@ h1.booking{
     margin-top: 80px;
     text-decoration: underline;
     font-family: var(--font1);
-    font-size: 150%;
+    font-size: 50px;
     text-shadow: -1px 1px 0 #000000,
                           1px 1px 0 #000000,
                          1px -1px 0 #000000,
@@ -292,7 +292,7 @@ p span{
     display: flex;
     flex-direction: column;
     font-family: var(--font7);
-    padding: 10px;
+    padding: 30px;
     font-size: 18px;
 }
 
@@ -303,7 +303,7 @@ p span{
     font-size: 50px;
     font-weight: 500;
     justify-content: center;
-    
+    padding: 10px;
 }
 
 .contact a{
@@ -315,9 +315,14 @@ p span{
 }
 
 
-footer.booking{
- position: fixed;
- display: flex;
+.fix_footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
 }
 
 /*         ABOUT     */
