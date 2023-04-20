@@ -23,7 +23,7 @@
       
     @media screen and (max-width: 800px) {
         .titel{
-          font-size: 30px;
+          font-size: 39px;
         }
         .nav a{
             font-size: 10px;
@@ -34,6 +34,7 @@
         .logo{
             width:40px
         }
+        
       }
 }
 
@@ -118,7 +119,6 @@ header{
 main.index{
     width: 100%;
     right: 0;
-    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -130,8 +130,8 @@ h2{
     font-family: var(--font1);
     color: rgb(0, 0, 0);
     text-align: center;
-    font-size: 40px;
     padding: 5px;
+    font-size: 30px;
     text-decoration: underline;
     margin-top: 10px;
     margin-bottom: 5px;
@@ -142,12 +142,23 @@ h2{
 
 }
 
-.moments,.reviews{
+.iframe_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .riframe {
+ 
+    justify-content: space-between;
+  }
+
+.moments,.comments,.profile{
     background-color: rgba(255, 255, 255, 0.238);
     padding-bottom: 10px;
 }
 
-.youtube,.profile{
+.youtube,.reviews{
     width: 100%;
     background-color: rgba(0, 0, 0, 0.231);
     padding-bottom: 10px;
@@ -260,14 +271,15 @@ footer{
 }
 
 /*    GALLERY     */
+
+
 h1.gallery{
     font-family: var(--font1);
     color: rgb(0, 0, 0);
     text-align: center;
-    font-size: 5vw;
-    padding: 5px;
     text-decoration: underline;
-    margin-top: 10px;
+    margin-top: 60px;
+    font-size: 40px;
     margin-bottom: 10px;
     text-shadow: -1px 1px 0 #ffffff,
                           1px 1px 0 #ffffff,
@@ -286,10 +298,6 @@ main.gallery{
     align-items: center;
 }
 
-section.acrylic_p{
-    margin: 10vw;
-
-}
 
 .acrylic_p{
     background-color: rgba(255, 255, 255, 0.238);
@@ -319,7 +327,7 @@ main.booking{
 
 h1.booking{
 
-    margin-top: 60px;
+    margin-top: 80px;
     text-decoration: underline;
     font-family: var(--font1);
     font-size: 35px;
@@ -332,7 +340,7 @@ p span{
 .para{
     margin-top: 5vw;
     font-size: 30px;
-    font-family:var(--font5)
+    font-family:var(--font8)
 }
 
 .fix_footer{
@@ -342,7 +350,7 @@ p span{
 }
 
 .contact{
-    padding: 50px;
+    padding: 30px;
     display: flex;
     font-size: 50px;
     font-weight: 500;
@@ -358,17 +366,19 @@ p span{
 
 
 .logo_about{
-    margin-top: 80px;
+    margin-top: 60px;
     width: 90px;
 }
 
 .about_titel{
-    font-family: var(--font7);
-    font-size: 60px;
+    font-family: var(--font5);
+    font-size: 50px;
 }
 
 .para_about{
+    display: flex;
+    flex-direction: column;
     font-family: var(--font8);
-    padding: 20px;
+    padding: 10vw;
     font-size: 18px;
 }
