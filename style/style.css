@@ -5,6 +5,7 @@
     list-style: none;
     scroll-behavior: smooth;
     box-sizing: border-box;
+    font-family: var(--font6);
     @media screen and (min-width: 801px) {
         .titel{
           font-size: 80px;
@@ -14,9 +15,6 @@
           }
         .nav{
             gap:50px
-        }
-        .logo{
-            width:60px
         }
       }
       
@@ -30,9 +28,6 @@
           }
           .nav{
             gap:40px
-        }
-        .logo{
-            width:40px
         }
         
       }
@@ -56,28 +51,14 @@ header{
     display: flex;
     padding-top: 50px;
     padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .titel{
     color: #ffffff;
-    display: flex;
     font-family:  var(--font5);
-    align-items: center;
-    align-self: center;
-    flex-direction: column;
-    flex-grow: 1;
-
 } 
-
-
-
-.logo{
-    margin-top: 1vw;
-    margin-left: 10px;
-    display: flex;
-    align-self: center;
-  
-}
 
 .nav{
     
@@ -275,16 +256,16 @@ footer{
 
 h1.gallery{
     font-family: var(--font1);
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
     text-decoration: underline;
     margin-top: 60px;
     font-size: 40px;
     margin-bottom: 10px;
-    text-shadow: -1px 1px 0 #ffffff,
-                          1px 1px 0 #ffffff,
-                         1px -1px 0 #ffffff,
-                        -1px -1px 0 #ffffff;
+    text-shadow: -1px 1px 0 #000000,
+                          1px 1px 0 rgb(0, 0, 0),
+                         1px -1px 0 #000000,
+                        -1px -1px 0 #000000;
 }
 
 main.gallery{
@@ -326,11 +307,16 @@ main.booking{
 }
 
 h1.booking{
-
+    color: #ffffff;
+    font-weight: bold;
     margin-top: 80px;
     text-decoration: underline;
     font-family: var(--font1);
     font-size: 35px;
+    text-shadow: -1px 1px 0 #000000,
+                          1px 1px 0 #000000,
+                         1px -1px 0 #000000,
+                        -1px -1px 0 #000000;
 }
 
 
@@ -338,6 +324,7 @@ p span{
     font-weight: bold;
 }
 .para{
+    margin: 10px;
     margin-top: 5vw;
     font-size: 30px;
     font-family:var(--font7)
@@ -359,7 +346,11 @@ p span{
 }
 
 .contact a{
-    color: #000000;
+    color: #ffffff;
+    text-shadow: -1px 1px 0 #000000,
+                          1px 1px 0 #000000,
+                         1px -1px 0 #000000,
+                        -1px -1px 0 #000000;
 }
 
 /*         ABOUT     */
@@ -373,6 +364,10 @@ p span{
 .about_titel{
     font-family: var(--font8);
     font-size: 50px;
+    text-shadow: -1px 1px 0 #ffffff,
+                          1px 1px 0 #ffffff,
+                         1px -1px 0 #ffffff,
+                        -1px -1px 0 #ffffff;
 }
 
 .para_about{
