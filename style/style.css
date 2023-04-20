@@ -6,7 +6,7 @@
     list-style: none;
     scroll-behavior: smooth;
     box-sizing: border-box;
-    font-family: 'Courgette', cursive;
+    font-family: var(--font7)
 }
 
 :root{
@@ -16,7 +16,7 @@
     --font4:'Stick', sans-serif;
     --font5:'Major Mono Display', monospace;
     --font6:'Courgette', cursive;
-    --font7:'Bubblegum Sans', cursive;
+    --font7:'Nova Oval', cursive;
     --font8:'Slackey', cursive;
 }
 
