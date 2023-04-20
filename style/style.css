@@ -1,3 +1,4 @@
+
 *{
     padding: 0;
     margin: 0px;
@@ -5,32 +6,7 @@
     list-style: none;
     scroll-behavior: smooth;
     box-sizing: border-box;
-    font-family: var(--font6);
-    @media screen and (min-width: 801px) {
-        .titel{
-          font-size: 80px;
-        }
-        .nav a{
-            font-size: 20px;
-          }
-        .nav{
-            gap:50px
-        }
-      }
-      
-      
-    @media screen and (max-width: 800px) {
-        .titel{
-          font-size: 39px;
-        }
-        .nav a{
-            font-size: 10px;
-          }
-          .nav{
-            gap:40px
-        }
-        
-      }
+    font-family: 'Courgette', cursive;
 }
 
 :root{
@@ -58,6 +34,12 @@ header{
 .titel{
     color: #ffffff;
     font-family:  var(--font5);
+    @media screen and (min-width: 801px){
+          font-size: 80px;
+      }
+    @media screen and (max-width: 800px) {
+          font-size: 39px;
+        }
 } 
 
 .nav{
@@ -70,8 +52,13 @@ header{
     display: flex;
     transition: all .45s ease;
     justify-content: center;
-
-    
+    @media screen and (min-width: 801px) {
+            gap:50px;
+      }
+      
+    @media screen and (max-width: 800px){
+            gap:40px;
+        }
 }
 
 .nav a{
@@ -86,6 +73,12 @@ header{
     padding-left: 2vw;
     padding-right: 2vw;
     font-weight: bold;
+    @media screen and (min-width: 801px) {
+            font-size: 20px;
+      }
+    @media screen and (max-width: 800px) {
+            font-size: 10px;
+          }
 }
 
 .nav a:hover{
@@ -127,11 +120,11 @@ h2{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 10px;
   }
 
-  .riframe {
+.riframe {
  
-    justify-content: space-between;
   }
 
 .moments,.comments,.profile{
@@ -205,7 +198,7 @@ footer{
     font-size: 100px;
     font-weight: 500;
     justify-content: center;
-    
+    align-items: center;
 }
 
 .terms{
@@ -330,11 +323,7 @@ p span{
     font-family:var(--font7)
 }
 
-.fix_footer{
-    position: fixed;
-    margin-top:630px;
-    
-}
+
 
 .contact{
     padding: 30px;
@@ -351,6 +340,12 @@ p span{
                           1px 1px 0 #000000,
                          1px -1px 0 #000000,
                         -1px -1px 0 #000000;
+}
+
+
+footer.booking{
+position: fixed;
+ display: flex;
 }
 
 /*         ABOUT     */
@@ -377,3 +372,8 @@ p span{
     padding: 10vw;
     font-size: 18px;
 }
+
+footer.about{
+    position: fixed;
+     display: flex;
+    }
