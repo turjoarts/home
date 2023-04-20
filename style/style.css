@@ -32,14 +32,10 @@ header{
 }
 
 .titel{
+    padding: 10px;
     color: #ffffff;
     font-family:  var(--font5);
-    @media screen and (min-width: 801px){
-          font-size: 80px;
-      }
-    @media screen and (max-width: 800px) {
-          font-size: 39px;
-        }
+    font-size: 8vw;
 } 
 
 .nav{
@@ -99,7 +95,7 @@ h2{
     color: rgb(0, 0, 0);
     text-align: center;
     padding: 5px;
-    font-size: 30px;
+    font-size: 5vw;
     text-decoration: underline;
     margin-top: 10px;
     margin-bottom: 5px;
