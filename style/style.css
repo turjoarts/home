@@ -45,8 +45,8 @@
     --font4:'Stick', sans-serif;
     --font5:'Major Mono Display', monospace;
     --font6:'Courgette', cursive;
-    --font7:'Lacquer', cursive;
-    --font8:'Oregano', cursive;
+    --font7:'Bubblegum Sans', cursive;
+    --font8:'Slackey', cursive;
 }
 
 header{
@@ -340,7 +340,7 @@ p span{
 .para{
     margin-top: 5vw;
     font-size: 30px;
-    font-family:var(--font8)
+    font-family:var(--font7)
 }
 
 .fix_footer{
@@ -371,14 +371,14 @@ p span{
 }
 
 .about_titel{
-    font-family: var(--font5);
+    font-family: var(--font8);
     font-size: 50px;
 }
 
 .para_about{
     display: flex;
     flex-direction: column;
-    font-family: var(--font8);
+    font-family: var(--font7);
     padding: 10vw;
     font-size: 18px;
 }
