@@ -232,6 +232,7 @@ footer{
 
 .terms a:active{
     color: rgb(255, 0, 0);
+
 }
 
 /*    GALLERY     */
@@ -317,12 +318,11 @@ p span{
 
 .fix_footer{
     position: fixed;
-    left: 0;
+   
     bottom: 0;
     width: 100%;
     background-color: rgb(0, 0, 0);
-    color: white;
-    text-align: center;
+    color: rgb(0, 0, 0);
 }
 
 /*         ABOUT     */
@@ -345,7 +345,7 @@ p span{
     display: flex;
     flex-direction: column;
     font-family: var(--font7);
-    padding: 10vw;
+    padding: 10px;
     font-size: 18px;
 }
 
