@@ -239,7 +239,7 @@ footer{
 
 
 
-h1.gallery{
+h2.gallery{
     font-family: var(--font4);
     color: rgb(255, 255, 255);
     text-align: center;
@@ -253,7 +253,7 @@ h1.gallery{
 
 
 .box_gallery{
-    background-color: #ffafaf;
+    background-color: #ffbd91;
     border: 2px solid black;
     color: #000;
     margin: 10px;
@@ -269,11 +269,7 @@ h1.gallery{
 }
 
 
-
-/*     CELEBRITY      */
-
-
-h1.celebrity{
+h1.gallery{
     font-family: var(--font1);
     color: rgb(255, 255, 255);
     text-align: center;
@@ -281,6 +277,25 @@ h1.celebrity{
     margin-top: 60px;
     font-size: 8vw;
     margin-bottom: 10px;
+    text-shadow: -1px 1px 0 #000000,
+                          1px 1px 0 rgb(0, 0, 0),
+                         1px -1px 0 #000000,
+                        -1px -1px 0 #000000;
+
+}
+
+
+
+/*     CELEBRITY      */
+
+
+h2.gallery{
+    font-family: var(--font4);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    text-decoration: none;
     text-shadow: -1px 1px 0 #000000,
                           1px 1px 0 rgb(0, 0, 0),
                          1px -1px 0 #000000,
