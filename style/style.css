@@ -286,14 +286,14 @@ h1.gallery{
 
 
 
-/*     CELEBRITY      */
+
 
 
 h2.gallery{
     font-family: var(--font4);
     color: rgb(255, 255, 255);
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     padding: 10px;
     text-decoration: none;
     text-shadow: -1px 1px 0 #000000,
