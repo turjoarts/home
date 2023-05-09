@@ -238,7 +238,42 @@ footer{
 /*    GALLERY     */
 
 
+
 h1.gallery{
+    font-family: var(--font4);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    text-shadow: -1px 1px 0 #000000,
+                          1px 1px 0 rgb(0, 0, 0),
+                         1px -1px 0 #000000,
+                        -1px -1px 0 #000000;
+}
+
+
+.box_gallery{
+    background-color: #ffafaf;
+    border: 2px solid black;
+    color: #000;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.content_gallery{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px;
+}
+
+
+
+/*     CELEBRITY      */
+
+
+h1.celebrity{
     font-family: var(--font1);
     color: rgb(255, 255, 255);
     text-align: center;
@@ -260,11 +295,10 @@ h1.gallery{
     padding-bottom: 10px;
 }
 
-.canvas{
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.231);
-    padding-bottom: 10px;
-}
+
+
+
+
 
 
 /*   BOOKING    */
@@ -318,7 +352,6 @@ p span{
 
 .fix_footer{
     position: fixed;
-   
     bottom: 0;
     width: 100%;
     background-color: rgb(0, 0, 0);
