@@ -95,7 +95,7 @@ h2{
     color: rgb(0, 0, 0);
     text-align: center;
     padding: 5px;
-    font-size: 5vw;
+    font-size: 45px;
     text-decoration: underline;
     margin-top: 10px;
     margin-bottom: 5px;
@@ -264,23 +264,24 @@ h1.gallery{
 
 .view_more_button{
     margin: 20px;
-   
 }
 
 
 .view_more_button a{
-    color: #000871;
-    font-family: var(--font2);
+    color: #000000;
+    font-family: var(--font1);
     border: 2px solid black;
-    padding: 10px;
-    font-size: 25px;
-    font-weight: ;
+    padding: 5px;
+    font-size: 3vw;
+    font-weight: bold ;
+    background-color: #ecff59;
+    border-radius: 8px;
 
 }
 
 .view_more_button a:hover{
-    color: rgb(241, 0, 0);
-    border: 2px solid rgb(255, 0, 0);
+    background-color: #9a0000;
+    color: #fcfcfc;
 }
 
 
@@ -298,7 +299,7 @@ h1.booking{
     margin-top: 60px;
     text-decoration: underline;
     font-family: var(--font1);
-    font-size: 50px;
+    font-size: 45px;
     text-shadow: -1px 1px 0 #000000,
                           1px 1px 0 #000000,
                          1px -1px 0 #000000,
@@ -318,46 +319,9 @@ h2.booking{
 }
 
 
-
-p span{
-    font-weight: bold;
-}
-.text{
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    font-size: 25px;
-    align-items: start;
-    font-family: var(--font15);
-}
-
-
-.contact{
-    display: flex;
-    font-size: 50px;
-    font-weight: 500;
-    justify-content: center;
-    padding: 10px;
-}
-
-.contact a{
-    color: #ffffff;
-    text-shadow: -1px 1px 0 #000000,
-                          1px 1px 0 #000000,
-                         1px -1px 0 #000000,
-                        -1px -1px 0 #000000;
-}
-
-
-.fix_footer{
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(0, 0, 0);
-    color: rgb(0, 0, 0);
-}
-
 .sub{
+    margin-left: 15px;
+    margin-right: 15px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -367,16 +331,31 @@ p span{
     justify-self: right;
 }
 
+p span{
+    font-weight: bold;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 3vw;
+    align-items: start;
+    font-family: var(--font15);
+}
 
 .order_now{
     font-family: var(--font8);
-    border: 2px solid black;
+    border: 2px solid rgb(0, 0, 0);
     padding: 2px;
+    font-size: 3vw;
+    color: #fcfcfc;
+    background-color: #9a0000;
 }
 
 .order_now:hover{
-    color: rgb(241, 0, 0);
-    border: 2px solid rgb(255, 0, 0);
+    color: rgb(128, 0, 0);
+    background-color: #fcfcfc;
 }
 
 .para_details{
@@ -384,7 +363,7 @@ p span{
     flex-direction: column;
     font-family: var(--font12);
     padding: 10px;
-    font-size: 25px;
+    font-size: 3vw;
     color: #9a0000;
 }
 
@@ -400,6 +379,31 @@ p span{
 }
 
 
+.contact{
+    display: flex;
+    font-size: 8vw;
+    font-weight: 500;
+    justify-content: center;
+    padding: 10px;
+}
+
+.contact a{
+    color: #ffffff;
+    text-shadow: -1px 1px 0 #000000,
+                          1px 1px 0 #000000,
+                         1px -1px 0 #000000,
+                        -1px -1px 0 #000000;
+}
+
+
+
+.fix_footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
 
 
 
