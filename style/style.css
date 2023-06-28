@@ -204,19 +204,19 @@ form{
 }
 
 form .textarea_name textarea{
-    height: 20px;
+    height: 30px;
+    width: 100%;
+    overflow: hidden;
+}
+
+form .textarea_id textarea{
+    height: 30px;
     width: 100%;
     overflow: hidden;
 }
 
 form .textarea_describe textarea{
     height: 100px;
-    width: 100%;
-    overflow: hidden;
-}
-
-form .textarea_id textarea{
-    height: 20px;
     width: 100%;
     overflow: hidden;
 }
