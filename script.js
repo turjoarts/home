@@ -1,7 +1,7 @@
 
 function sendEmail(){
     var id=document.getElementById("p_id").value;
-    if(id=='p123')
+    if(id=='122333')
     {      
         var ele = document.getElementsByName("rate");
         var x;
