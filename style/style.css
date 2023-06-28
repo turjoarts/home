@@ -57,7 +57,7 @@ header{
 }
 
 .nav a{
-    font-family: var(--font6);
+    font-family: var(--font10);
     display: flex;
     color: aliceblue;
     margin-top: 10px;
@@ -113,7 +113,7 @@ h2{
     gap: 10px;
   }
 
-.moments,.comments,.profile{
+.moments,.comments,.write_review{
     background-color: rgba(255, 255, 255, 0.238);
     padding-bottom: 10px;
 }
@@ -124,39 +124,117 @@ h2{
     padding-bottom: 10px;
 }
 
-
-.pp{
-    padding-top: 40px;
-    width:200px;
-    border-radius: 50%;
-}
-
-.name{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
-    text-shadow: -1px 1px 0 #fcfcfc,
-                          1px 1px 0 #ffffff,
-                         1px -1px 0 #ffffff,
-                        -1px -1px 0 #ffffff;
-}
-
-h4{
-    font-size: 25px;
-}
-
-.about{
+.container_review{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 10px;
-    font-size: 20px;
-    font-family: var(--font11);
+    flex-wrap: wrap;
 }
 
-.ps{
-    color: #000;
-    text-shadow: -1px 1px 0 #fcfcfc,
-    1px 1px 0 #ffffff,
-   1px -1px 0 #ffffff,
-  -1px -1px 0 #ffffff;
+.c_review{
+    display: flex;
+    background-color: #ffffff;
+    margin: 10px;
+    flex-direction: column;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    
 }
+
+.c_star i{
+    font-size: 30px;
+    color: #fe7;
+}
+
+.c_describe{
+    font-size: 20px;
+    font-family: var(--font6);
+}
+
+
+
+form{
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.containter_s{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#star input{
+    display: none;
+}
+
+#star label{
+    font-size: 30px;
+    color: #606060;
+    padding: 10px;
+    float: right;
+    transition: all 0.2s ease;
+ 
+}
+
+#star input:not(:checked) ~ label:hover,
+#star input:not(:checked) ~ label:hover ~ label
+{
+    color: #fe7;
+}
+
+#star input:checked ~ label{
+    color: #fe7;
+}
+
+.form-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+
+}
+
+form .textarea_name textarea{
+    height: 20px;
+    width: 100%;
+    overflow: hidden;
+}
+
+form .textarea_describe textarea{
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+}
+
+form .textarea_id textarea{
+    height: 20px;
+    width: 100%;
+    overflow: hidden;
+}
+
+form .btn{
+    background-color: #ffa442;
+    padding: 10px;
+    margin: 20px;
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.btn:hover{
+    background-color: rgb(0, 255, 38);
+} 
+
+
 
 
 footer{
@@ -274,13 +352,13 @@ h1.gallery{
     padding: 5px;
     font-size: 3vw;
     font-weight: bold ;
-    background-color: #ecff59;
+    background-color: #ffb1b1;
     border-radius: 8px;
 
 }
 
 .view_more_button a:hover{
-    background-color: #9a0000;
+    background-color: #ff4e4e;
     color: #fcfcfc;
 }
 
@@ -345,12 +423,13 @@ p span{
 }
 
 .order_now{
-    font-family: var(--font8);
+    font-family: var(--font9);
     border: 2px solid rgb(0, 0, 0);
-    padding: 2px;
+    padding: 4px;
     font-size: 3vw;
     color: #fcfcfc;
-    background-color: #9a0000;
+    background-color: #7debff;
+    border-radius: 5px;
 }
 
 .order_now:hover{
@@ -436,6 +515,38 @@ footer.about{
  display: flex;
     }
 
+    .pp{
+        padding-top: 40px;
+        width:200px;
+        border-radius: 50%;
+    }
+    
+    .name{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 25px;
+        text-shadow: -1px 1px 0 #fcfcfc,
+                              1px 1px 0 #ffffff,
+                             1px -1px 0 #ffffff,
+                            -1px -1px 0 #ffffff;
+    }
+    
+    h4{
+        font-size: 25px;
+    }
+    
+    .about{
+        margin: 10px;
+        font-size: 20px;
+        font-family: var(--font11);
+    }
+    
+    .ps{
+        color: #000;
+        text-shadow: -1px 1px 0 #fcfcfc,
+        1px 1px 0 #ffffff,
+       1px -1px 0 #ffffff,
+      -1px -1px 0 #ffffff;
+    }
 
 
 

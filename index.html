@@ -92,33 +92,76 @@
             <a href="picture/comments/6.jpg"><img src="picture/comments/6.jpg" width="23%"></a>
             <a href="picture/comments/7.jpg"><img src="picture/comments/7.jpg" width="23%"></a>
         </section>
+       
         <section class="reviews">
             <h2>Customer reviews</h2>
-                <a href="picture/review/1.jpg"><img src="picture/review/1.jpg" width="23%"></a>
-                <a href="picture/review/2.jpg"><img src="picture/review/2.jpg" width="23%"></a>
-                <a href="picture/review/3.jpg"><img src="picture/review/3.jpg" width="23%"></a>
-                <a href="picture/review/4.jpg"><img src="picture/review/4.jpg" width="23%"></a>
-                <a href="picture/review/5.jpg"><img src="picture/review/5.jpg" width="23%"></a>
-                <a href="picture/review/6.jpg"><img src="picture/review/6.jpg" width="23%"></a>
-                <a href="picture/review/7.jpg"><img src="picture/review/7.jpg" width="23%"></a>
-                <a href="picture/review/8.jpg"><img src="picture/review/8.jpg" width="23%"></a>
-                <a href="picture/review/9.jpg"><img src="picture/review/9.jpg" width="23%"></a>
-                <a href="picture/review/10.jpg"><img src="picture/review/10.jpg" width="23%"></a>
-                <a href="picture/review/11.jpg"><img src="picture/review/11.jpg" width="23%"></a>
-                <a href="picture/review/12.jpg"><img src="picture/review/12.jpg" width="23%"></a>
-        </section>
-        <section class="profile">
-            <h2>Artist</h2>
-            <img src="picture/Profile/1.jpg" class="pp">
-            <h3 class="name">TURJO DAS</h3>
-            <div class="ps">
-                <a href="https://www.facebook.com/turjo.das.art/" target="_blank">facebook</a>&nbsp;&nbsp;|&nbsp;
-                <a href="https://www.instagram.com/ig_turjo_08/" target="_blank">instagram</a>
+            <p>No Reviews Yet!</p>
+            
+            <!--<div class="container_review">
+                <div class="c_review">
+                    <div class="c_star">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                    </div>
+                    <p class="c_describe"> dsdsfsfsf ghghghghdfh frrsgsfjghsjk krh gjrdhg r hgkjurh g ur gjk rhuhr hgr huirh gkjh rgku h
+                    </p>
+                </div>
+
+            -->
+
+
+
             </div>
-            <h4>A self thought artist</h4>
-            <p class="about">Hello there! My name is Turjo Das, and I am a self-taught artist. 
-            I have always had a passion for art, even from a young age.</p>
         </section>
+        
+
+        <section class="write_review">
+            <h2>Write A Review</h2>
+            <form onsubmit="sendEmail();reset(); return false;">
+                <div class="form-group">
+                    <div class="containter_s">
+                        <div id="star" >
+                            <input type="radio" name="rate" id="rate5" value='5'>
+                            <label for="rate5" class='bx bxs-star'></label>
+                            <input type="radio" name="rate" id="rate4" value='4'>
+                            <label for="rate4" class='bx bxs-star'></label>
+                            <input type="radio" name="rate" id="rate3" value='3'>
+                            <label for="rate3" class='bx bxs-star'></label>
+                            <input type="radio" name="rate" id="rate2" value='2'>
+                            <label for="rate2" class='bx bxs-star'></label>
+                            <input type="radio" name="rate" id="rate1" value='1'>
+                            <label for="rate1" class='bx bxs-star'></label> 
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="textarea_name" >
+                        <textarea cols="30" rows="10" placeholder=" Enter Your Name" id="cname" name="cname" required></textarea>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="textarea_id" >
+                        <textarea cols="30" rows="10" placeholder=" Enter Product ID" id="p_id" name="p_id" required></textarea>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="textarea_describe" >
+                        <textarea cols="30" placeholder=" Describe Your Experence" id="describe" name="describe" required></textarea>
+                    </div>
+                </div>
+                <input type="submit" class="btn">
+
+            </form>
+        </section>
+
+
+
         <footer>
             <div class="social">
                 <p class="follow">Follow us on:</p>
@@ -139,5 +182,7 @@
         </footer>
     </main>
     
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
