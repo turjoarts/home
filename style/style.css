@@ -23,6 +23,12 @@
     --font12: 'Nova Oval', cursive;
     --font13: 'Pacifico', cursive;
     --font14: 'Sacramento', cursive;
+    --font15: 'Caprasimo', cursive;
+    --font16: 'Cookie', cursive;
+    --font17: 'Dancing Script', cursive;
+    --font18: 'Eczar', serif;
+    --font19: 'Paytone One', sans-serif;
+    --font20: 'Titan One', cursive;
 }
 
 header{
@@ -57,17 +63,18 @@ header{
 }
 
 .nav a{
-    font-family: var(--font10);
+    font-family: var(--font18);
     display: flex;
     color: aliceblue;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     transform: all .45s ease;
     transition: all .45s ease;
     border: 2px solid white;
     padding-left: 2vw;
     padding-right: 2vw;
-    font-weight: bold;
+    
+    border-radius: 10px;
 
 }
 
@@ -95,7 +102,7 @@ h2{
     color: rgb(0, 0, 0);
     text-align: center;
     padding: 5px;
-    font-size: 45px;
+    font-size: 40px;
     text-decoration: underline;
     margin-top: 10px;
     margin-bottom: 5px;
@@ -105,6 +112,17 @@ h2{
                         -1px -1px 0 #ffffff;
 
 }
+
+
+
+.imagei_moments a img{
+    width: 23%;
+    padding: 5px;
+    border: 5px solid black;
+}
+
+
+
 
 .iframe_container {
     display: flex;
@@ -140,6 +158,7 @@ h2{
     padding: 10px;
     border: 2px solid black;
     border-radius: 5px;
+    width: 1000px;
     
 }
 
@@ -151,7 +170,7 @@ h2{
 
 .c_name{
     font-size: 25px;
-    font-family: var(--font6);
+    font-family: var(--font15);
     text-decoration: underline;
     display: flex;
 }
@@ -159,8 +178,8 @@ h2{
 .c_describe{
     display: flex;
     font-size: 20px;
-    font-family: var(--font6);
-    
+    font-family: var(--font18);
+    text-align: left;
 }
 
 
@@ -242,6 +261,8 @@ form .btn{
     border: 3px solid black;
     border-radius: 5px;
     width: 100px;
+    font-family: var(--font15);
+    font-size: 20px;
 }
 
 .btn:hover{
@@ -361,11 +382,11 @@ h1.gallery{
 
 .view_more_button a{
     color: #000000;
-    font-family: var(--font1);
+    font-family: var(--font19);
     border: 2px solid black;
     padding: 5px;
     font-size: 3vw;
-    font-weight: bold ;
+   
     background-color: #ffb1b1;
     border-radius: 8px;
 
@@ -386,28 +407,28 @@ h1.gallery{
 
 
 h1.booking{
-    color: #ffffff;
-    font-weight: bold;
+    color: #000000;
+ 
     margin-top: 60px;
     text-decoration: underline;
     font-family: var(--font1);
     font-size: 45px;
-    text-shadow: -1px 1px 0 #000000,
-                          1px 1px 0 #000000,
-                         1px -1px 0 #000000,
-                        -1px -1px 0 #000000;
-}
-
-h2.booking{
-    color: #000000;
-    font-weight: bold;
-    text-decoration: underline;
-    font-family: var(--font11);
-    font-size: 30px;
     text-shadow: -1px 1px 0 #ffffff,
                           1px 1px 0 #ffffff,
                          1px -1px 0 #ffffff,
                         -1px -1px 0 #ffffff;
+}
+
+h2.booking{
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: var(--font11);
+    font-size: 30px;
+    text-shadow: -1px 1px 0 #000000,
+                          1px 1px 0 rgb(0, 0, 0),
+                         1px -1px 0 #000000,
+                        -1px -1px 0 #000000;
 }
 
 
@@ -433,7 +454,7 @@ p span{
     padding: 10px;
     font-size: 3vw;
     align-items: start;
-    font-family: var(--font15);
+    font-family: var(--font18);
 }
 
 .order_now{
@@ -441,7 +462,7 @@ p span{
     border: 2px solid rgb(0, 0, 0);
     padding: 4px;
     font-size: 3vw;
-    color: #fcfcfc;
+    color: #000000;
     background-color: #7debff;
     border-radius: 5px;
 }
