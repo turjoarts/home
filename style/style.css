@@ -125,17 +125,17 @@ h2{
 }
 
 .container_review{
+    margin: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 10px;
     flex-wrap: wrap;
 }
 
 .c_review{
     display: flex;
     background-color: #ffffff;
-    margin: 10px;
+    margin: 3px;
     flex-direction: column;
     padding: 10px;
     border: 2px solid black;
@@ -146,12 +146,24 @@ h2{
 .c_star i{
     font-size: 30px;
     color: #fe7;
+    float: left;
+}
+
+.c_name{
+    font-size: 25px;
+    font-family: var(--font6);
+    text-decoration: underline;
+    display: flex;
 }
 
 .c_describe{
+    display: flex;
     font-size: 20px;
     font-family: var(--font6);
+    
 }
+
+
 
 
 
@@ -215,11 +227,13 @@ form .textarea_id textarea{
     overflow: hidden;
 }
 
+
 form .textarea_describe textarea{
     height: 100px;
     width: 100%;
     overflow: hidden;
 }
+
 
 form .btn{
     background-color: #ffa442;
