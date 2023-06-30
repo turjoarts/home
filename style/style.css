@@ -115,8 +115,17 @@ h2{
 
 
 
-.imagei_moments a img{
-    width: 23%;
+.container_moments{
+    display: flex;
+    justify-content: center;
+    gap: 8px;  
+    overflow: hidden;  
+    flex-wrap: wrap;
+}
+
+
+.container_moments a img{
+    width: 180px;
     padding: 5px;
     border: 5px solid black;
 }
@@ -130,6 +139,26 @@ h2{
     justify-content: center;
     gap: 10px;
   }
+
+
+
+
+.container_comments{
+    display: flex;
+    justify-content: center;
+    gap: 8px;  
+    overflow: hidden;  
+    flex-wrap: wrap;
+}
+
+
+.container_comments a img{
+    width: 180px;
+    padding: 5px;
+    border: 5px solid black;
+}
+
+
 
 .moments,.comments,.write_review{
     background-color: rgba(255, 255, 255, 0.238);
