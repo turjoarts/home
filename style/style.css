@@ -188,7 +188,13 @@ h2{
     border: 2px solid black;
     border-radius: 5px;
     width: 1000px;
+    text-align: left;
     
+}
+
+.c_review a{
+    text-decoration: underline;
+    color: #ff0000;
 }
 
 .c_star i{
@@ -200,7 +206,7 @@ h2{
 .c_name{
     font-size: 25px;
     font-family: var(--font15);
-    text-decoration: underline;
+    
     display: flex;
 }
 
@@ -427,6 +433,26 @@ h1.gallery{
 }
 
 
+.container_commission{
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.gallery_box{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(255, 112, 112);
+    width: 23%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.gallery_box_text{
+    font-size: 15px;
+    color: #000;
+}
 
 
 
