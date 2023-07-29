@@ -1,9 +1,7 @@
 
 function sendEmail()
 {
-    var id=document.getElementById("p_id").value;
-    if(id=='122333')
-    {      
+    var id=document.getElementById("p_id").value;      
         var ele = document.getElementsByName("rate");
         var x;
         for (i = 0; i < ele.length; i++) 
@@ -32,11 +30,5 @@ function sendEmail()
         {
             alert("please give star");
         }
-
-    }
-    else
-    {
-        alert("Pleae Check Product ID");
-    }
 }
 
